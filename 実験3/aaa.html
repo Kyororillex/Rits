@@ -1,0 +1,31 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="login.css" type="text/css" media="all" />
+<title>パスワード変更画面</title>
+</head>
+<body>
+<div id="logout"><a href="/Users/is0585xf/Web/Scenario1311/VulSoft/login.php?page=2">メインメニューに戻る</a></div>
+
+<div id="title">パスワード変更画面</div>
+<div id="start_main">
+	<form action="http://appgoat.cysec-lab.org/Users/is0585xf/Web/Scenario1311/VulSoft/login.php?page=5" id="chg_pwd" method="post">
+		<input type="hidden" name="page" value="5"/><br/>
+		<table id="confirm_table" class="margin_center">
+			<tr>
+				<td><div class="form_input">新しいパスワード</td>
+				<td><input type="text" name="newpassword1"  size="10" maxlength="10"/></div></td>
+			</tr>
+			<tr>
+				<td><div class="form_input">もう一度入力</div></td>
+				<td><input type="text" name="newpassword2"  size="10" maxlength="10"/></div></td>
+			</tr>
+		</table>
+		<div id="submit" class="center"><input type="submit" value="変更する"/></div>
+	</form>
+</div>
+</body>
+</html>
