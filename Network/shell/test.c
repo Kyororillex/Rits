@@ -7,7 +7,7 @@
 #include <dirent.h>
 #define DATA_SIZE 1024
 
-void main()
+int main()
 {
     char *path;
 
@@ -15,4 +15,7 @@ void main()
 
     printf("%s\n",path);
 
+    puts("こんにちは");
+
+    return 1;
 }
